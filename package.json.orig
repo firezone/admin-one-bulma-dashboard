@@ -14,9 +14,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/firezone/admin-one-bulma-dashboard.git"
+    "url": "https://github.com/vikdiesel/admin-one-bulma-dashboard.git"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "@mdi/font": "^4.9.95",
@@ -34,5 +34,9 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "build": "gulp",
+    "deploy": "gh-pages -d demo"
   }
 }
