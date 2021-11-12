@@ -50,15 +50,15 @@ $base-color: $interface-main;
 $base-color-light: rgba(24, 28, 33, .06);
 
 /* General overrides */
-$primary: $accent-main;
+$primary: $accent-500;
 $body-background-color: $interface-900;
-$link: $accent-400;
-$link-visited: $accent-500;
+$link: $accent-300;
+$link-visited: $accent-600;
 $light-border: 1px solid $base-color-light;
 $hr-height: 1px;
 
 /* NavBar: specifics */
-$navbar-input-color: $interface-100;
+$navbar-input-color: $interface-000;
 $navbar-input-placeholder-color: $interface-600;
 $navbar-box-shadow: 0 1px 0 rgba(24,28,33,.04);
 $navbar-divider-border: 1px solid rgba($grey-lighter, .25);
@@ -68,8 +68,8 @@ $navbar-avatar-size: 1.75rem;
 /* Aside: Bulma override */
 $menu-item-radius: 0;
 $menu-list-link-padding: $size-base * .5 0;
-$menu-label-color: lighten($base-color, 25%);
-$menu-item-color: lighten($base-color, 30%);
+$menu-label-color: $interface-300;
+$menu-item-color: $interface-400;
 $menu-item-hover-color: $interface-900;
 $menu-item-hover-background-color: darken($base-color, 3.5%);
 $menu-item-active-color: $interface-900;
