@@ -45,12 +45,16 @@ $default-padding: $size-base * 1.5;
 /* Default font */
 $family-sans-serif: "Nunito", sans-serif;
 
+/* Text color */
+$text: $interface-100;
+$text-light: $interface-200;
+$text-strong: $interface-000;
+
 /* Base color */
 $base-color: $interface-main;
 $base-color-light: rgba(24, 28, 33, .06);
 
 /* General overrides */
-$color: $interface-main;
 $primary: $accent-500;
 $body-background-color: $interface-900;
 $link: $accent-300;
@@ -59,10 +63,10 @@ $light-border: 1px solid $base-color-light;
 $hr-height: 1px;
 
 /* NavBar: specifics */
-$navbar-input-color: $interface-000;
+$navbar-input-color: $interface-100;
 $navbar-input-placeholder-color: $interface-600;
 $navbar-box-shadow: 0 1px 0 rgba(24,28,33,.04);
-$navbar-divider-border: 1px solid rgba($grey-lighter, .25);
+$navbar-divider-border: 1px solid rgba($interface-600, .25);
 $navbar-item-h-padding: $default-padding * .75;
 $navbar-avatar-size: 1.75rem;
 
