@@ -1,3 +1,5 @@
+(Deprecated) This repository has been [merged into the main repository](https://github.com/firezone/firezone/tree/master/apps/fz_http/assets/local_modules/admin-one-bulma-dashboard)
+
 # [Admin One HTML &mdash; Free Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/one-html)
 
 [![version](https://img.shields.io/github/v/release/vikdiesel/admin-one-bulma-dashboard)](https://justboil.me/bulma-admin-template/one-html)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/bulma-admin-template/one-html)
